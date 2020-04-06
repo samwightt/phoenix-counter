@@ -23,4 +23,4 @@ mix do phx.digest, distillery.release --env=prod --no-tar
 
 echo "Linking release $APP_NAME:$APP_VSN to _render/"
 
-ln -sf "_build/$MIX_ENV/rel/$APP_NAME" _render
+ln -sf "_build/$MIX_ENV/rel/live_view_counter" _render
