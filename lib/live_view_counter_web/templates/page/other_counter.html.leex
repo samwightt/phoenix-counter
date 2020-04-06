@@ -1,0 +1,7 @@
+<div>
+  <h1>The count is <%= @session_name %></h1>
+  <%= live_patch "Other", to: Routes.live_path(@socket, LiveViewCounterWeb.Counter) %>
+  <h2><%= @val %></h2>
+  <button phx-click="dec">-</button>
+  <button phx-click="inc">+</button>
+</div>
